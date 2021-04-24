@@ -1,0 +1,57 @@
+div.color-path {
+    line-height:0; 
+    width:0;
+    height:0;
+    border: 10px solid;
+    border-color: #0f0;
+    margin-right: 5px;
+}
+
+div.color-begin {
+    line-height:0; 
+    width:0;
+    height:0;
+    border: 10px solid;
+    border-color: blue;
+    margin-right: 5px;
+}
+
+div.color-end {
+    line-height:0; 
+    width:0;
+    height:0;
+    border: 10px solid;
+    border-color: yellow;
+    margin-right: 5px;
+}
+
+div.color-closed {
+    line-height:0; 
+    width:0;
+    height:0;
+    border: 10px solid;
+    border-color: red;
+    margin-right: 5px;
+}
+
+div.color-open {
+    line-height:0; 
+    width:0;
+    height:0;
+    border: 10px solid;
+    border-color: cyan;
+    margin-right: 5px;
+}
+
+div.color-wall {
+    line-height:0; 
+    width:0;
+    height:0;
+    border: 10px solid;
+    border-color: black;
+    margin-right: 5px;
+}
+
+.flex-container {
+    display: flex;
+}

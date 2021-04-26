@@ -1,5 +1,3 @@
-var ti = performance.now();
-
 var cols = 50;
 var rows = 50;
 
@@ -121,9 +119,6 @@ function draw(){
     if (current === end){
       noLoop();
       let size = path.length + 1;
-      var tf = performance.now();
-      console.log(ti, tf, tf-ti); 
-      document.getElementById("time").innerHTML = "Tempo de excução: " + ((tf-ti)/1000).toFixed(2) + "s";
       document.getElementById("path").innerHTML = "Tamanho do caminho: " + size;
       document.getElementById("resultado").innerHTML = "Resultado: Solução encontrada!";
     }
@@ -157,9 +152,6 @@ function draw(){
   } else {
     noSolution = true;
     noLoop();
-    var tf = performance.now();
-    console.log(ti, tf, tf-ti); 
-    document.getElementById("time").innerHTML = "Tempo de excução: " + ((tf-ti)/1000).toFixed(2) + "s";
     document.getElementById("path").innerHTML = "Tamanho do caminho: 0";
     document.getElementById("resultado").innerHTML = "Resultado: sem solução :(";
   }
